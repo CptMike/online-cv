@@ -9,13 +9,12 @@ sidebar:
     # Profile information
     name: Michael Panagiotidis
     tagline: Blockchain Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    avatar: profile1.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
     email: p14pana@ionio.gr
     phone: 6981999999
     citizenship: Thessaloniki, Greece
-    website: blog.webjeda.com #do not add http://
     linkedin: Michail Panagiotidis
     github: CptMike
     telegram: Cpt_MikeEth
