@@ -14,19 +14,12 @@ sidebar:
     # Sidebar links
     email: p14pana@ionio.gr
     phone: 6981999999
-    citizenship:
+    citizenship: Thessaloniki, Greece
     website: blog.webjeda.com #do not add http://
     linkedin: Michail Panagiotidis
-    xing: alandoe
     github: CptMike
-    telegram: # add your nickname without '@' sign
-    gitlab:
-    bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+    telegram: Cpt_MikeEth
+    twitter: Cpt_MikeEth
 
     languages:
       - idiom: Greek
@@ -51,50 +44,35 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      Blockchain developer with 3 years of experience in the Ethereum Blockchain. Friendly and reliable with strong communication and teamwork. Always confident to compete with co-workers, communicate and contribute towards a mutual goal. 
+      Aqcuiring knowledge and experience is the number one priority.
+      
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
+    - degree: BSc in Computer Science
+      university: Ionian University
+      time: 2014 - 2022
+      
+    - degree: High School Diploma
+      university: Anatolia College
+      time: 2008 - 2014
+      
 experiences:
-    - role: Blockchain Developer
+    
+    - role: Ethereum Engineer Intern
+      time: 2020 - 2021
+      company: Rolla Finance
+      details: |
+        4 month internship in Rolla Finance. Worked on various projects and contributed to the project to the maximum of my capabilities
+          - Smart Contracts
+          - TheGraph
+          - APIs / Subscriptions
+          
+    - role: Blockchain Developer Freelancer
       time: 2018 - 2020
       company: Freelancing
       details: |
        Worked as a freelancer for small to medium projects on the ethereum blockchain on UpWork.
           - Built and deployed ~15 smart contracts.
-    - role: Ethereum Engineer
-      time: 2020 - 2021
-      company: Rolla Finance
-      details: |
-        4 month internship. Worked on various projects and contributed to the project to the maximum of my capabilities
-          - Smart Contracts
-          - TheGraph
-          - APIs / Subscriptions
     
 projects:
     title: Projects
@@ -141,7 +119,7 @@ skills:
       - name: NodeJs
         level: 90%
 
-      - name: NextJs & Ethers.js
+      - name: Next.js & Ethers.js
         level: 80%
 
 footer: >
