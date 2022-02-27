@@ -105,6 +105,9 @@ skills:
     toolset:
       - name: Javascript & Typescript
         level: 90%
+       
+      - name: Solidity
+        level: 90%
 
       - name: HTML5 & CSS
         level: 90%
