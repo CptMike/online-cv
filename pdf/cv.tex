@@ -1,0 +1,706 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+  english,
+]{article}
+\usepackage{amsmath,amssymb}
+\usepackage{lmodern}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\hypersetup{
+  pdftitle={GitHub - CptMike/online-cv: A minimal Jekyll Theme to host your resume (CV)},
+  pdflang={en},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+\urlstyle{same} % disable monospaced font for URLs
+\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\ifXeTeX
+  % Load polyglossia as late as possible: uses bidi with RTL langages (e.g. Hebrew, Arabic)
+  \usepackage{polyglossia}
+  \setmainlanguage[]{english}
+\else
+  \usepackage[main=english]{babel}
+% get rid of language-specific shorthands (see #6817):
+\let\LanguageShortHands\languageshorthands
+\def\languageshorthands#1{}
+\fi
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+
+\title{GitHub - CptMike/online-cv: A minimal Jekyll Theme to host your
+resume (CV)}
+\author{}
+\date{}
+
+\begin{document}
+\maketitle
+
+\protect\hyperlink{start-of-content}{Skip to content} { {} }
+
+\href{https://github.com/}{}
+
+\href{/signup?ref_cta=Sign+up\&ref_loc=header+logged+out\&ref_page=\%2F\%3Cuser-name\%3E\%2F\%3Crepo-name\%3E\&source=header-repo}{Sign~up}
+
+\begin{itemize}
+\tightlist
+\item
+  Product
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \href{/features}{Features}
+  \item
+    \href{/mobile}{Mobile}
+  \item
+    \href{/features/actions}{Actions}
+  \item
+    \href{/features/codespaces}{Codespaces}
+  \item
+    \href{/features/packages}{Packages}
+  \item
+    \href{/features/security}{Security}
+  \item
+    \href{/features/code-review}{Code review}
+  \item
+    \href{/features/issues}{Issues}
+  \item
+    \href{/features/integrations}{Integrations}
+  \item
+    \href{/sponsors}{GitHub Sponsors}
+  \item
+    \href{/customer-stories}{Customer stories}
+  \end{itemize}
+\item
+  \href{/team}{Team}
+\item
+  \href{/enterprise}{Enterprise}
+\item
+  Explore
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \href{/explore}{Explore GitHub}
+  \item
+    Learn and contribute
+  \item
+    \href{/topics}{Topics}
+  \item
+    \href{/collections}{Collections}
+  \item
+    \href{/trending}{Trending}
+  \item
+    \href{https://lab.github.com/}{Learning Lab}
+  \item
+    \href{https://opensource.guide}{Open source guides}
+  \item
+    Connect with others
+  \item
+    \href{/readme}{The ReadME Project}
+  \item
+    \href{/events}{Events}
+  \item
+    \href{https://github.community}{Community forum}
+  \item
+    \href{https://education.github.com}{GitHub Education}
+  \item
+    \href{https://stars.github.com}{GitHub Stars program}
+  \end{itemize}
+\item
+  \href{/marketplace}{Marketplace}
+\item
+  Pricing
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \href{/pricing}{Plans}
+  \item
+    \href{/pricing\#compare-features}{Compare plans}
+  \item
+    \href{https://github.com/enterprise/contact}{Contact Sales}
+  \item
+    \href{https://education.github.com}{Education}
+  \end{itemize}
+\end{itemize}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{}{}
+
+  \includegraphics[width=0.29167in,height=0.29167in]{}
+
+  { In this repository } { All GitHub } {↵}
+
+  Jump to {↵}
+\end{itemize}
+
+\begin{itemize}
+\tightlist
+\item
+  {No suggested jump to results}
+\end{itemize}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{}{}
+
+  \includegraphics[width=0.29167in,height=0.29167in]{}
+
+  { In this repository } { All GitHub } {↵}
+
+  Jump to {↵}
+\item
+  \href{}{}
+
+  \includegraphics[width=0.29167in,height=0.29167in]{}
+
+  { In this user } { All GitHub } {↵}
+
+  Jump to {↵}
+\item
+  \href{}{}
+
+  \includegraphics[width=0.29167in,height=0.29167in]{}
+
+  { In this repository } { All GitHub } {↵}
+
+  Jump to {↵}
+\end{itemize}
+
+\href{/login?return_to=https\%3A\%2F\%2Fgithub.com\%2FCptMike\%2Fonline-cv}{Sign
+in}
+
+\href{/signup?ref_cta=Sign+up\&ref_loc=header+logged+out\&ref_page=\%2F\%3Cuser-name\%3E\%2F\%3Crepo-name\%3E\&source=header-repo\&source_repo=CptMike\%2Fonline-cv}{Sign
+up}
+
+\hypertarget{start-of-content}{}
+
+\hypertarget{js-flash-container}{}
+\{\{ message \}\}
+
+\hypertarget{js-repo-pjax-container}{}
+\hypertarget{repository-container-header}{}
+\hypertarget{cptmike-online-cv-public}{%
+\section[ { \href{/CptMike}{CptMike} } {/}
+\textbf{\href{/CptMike/online-cv}{online-cv}}
+{}{Public}]{\texorpdfstring{ { \href{/CptMike}{CptMike} } {/}
+\textbf{\href{/CptMike/online-cv}{online-cv}}
+{}{Public}}{  CptMike  / online-cv Public}}\label{cptmike-online-cv-public}}
+
+{ forked from \href{/sharu725/online-cv}{sharu725/online-cv} }
+
+\begin{itemize}
+\item
+  \href{/login?return_to=\%2FCptMike\%2Fonline-cv}{Notifications}
+\item
+  \href{/login?return_to=\%2FCptMike\%2Fonline-cv}{Fork
+  \protect\hypertarget{repo-network-counter}{}{4k}}
+\item
+  \href{/login?return_to=\%2FCptMike\%2Fonline-cv}{{ Star }
+  \protect\hypertarget{repo-stars-counter-star}{}{0}}
+\end{itemize}
+
+\hypertarget{responsive-meta-container}{}
+A minimal Jekyll Theme to host your resume (CV)
+
+{ \href{https://online-cv.webjeda.com}{online-cv.webjeda.com} }
+
+\href{/CptMike/online-cv/stargazers}{ {0} stars}
+\href{/CptMike/online-cv/network/members}{ {4k} forks}
+
+\href{/login?return_to=\%2FCptMike\%2Fonline-cv}{{ Star }}
+
+\href{/login?return_to=\%2FCptMike\%2Fonline-cv}{Notifications}
+
+\begin{itemize}
+\tightlist
+\item
+  \protect\hypertarget{code-tab}{\href{/CptMike/online-cv}{ {Code}
+  \protect\hypertarget{code-repo-tab-count}{}{}}}
+\item
+  \protect\hypertarget{pull-requests-tab}{\href{/CptMike/online-cv/pulls}{
+  {Pull requests}
+  \protect\hypertarget{pull-requests-repo-tab-count}{}{0}}}
+\item
+  \protect\hypertarget{actions-tab}{\href{/CptMike/online-cv/actions}{
+  {Actions} \protect\hypertarget{actions-repo-tab-count}{}{}}}
+\item
+  \protect\hypertarget{projects-tab}{\href{/CptMike/online-cv/projects?type=beta}{
+  {Projects} \protect\hypertarget{projects-repo-tab-count}{}{0}}}
+\item
+  \protect\hypertarget{wiki-tab}{\href{/CptMike/online-cv/wiki}{ {Wiki}
+  \protect\hypertarget{wiki-repo-tab-count}{}{}}}
+\item
+  \protect\hypertarget{security-tab}{\href{/CptMike/online-cv/security}{
+  {Security}}}
+\item
+  \protect\hypertarget{insights-tab}{\href{/CptMike/online-cv/pulse}{
+  {Insights} \protect\hypertarget{insights-repo-tab-count}{}{}}}
+\end{itemize}
+
+{More}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{/CptMike/online-cv}{Code}
+\item
+  \href{/CptMike/online-cv/pulls}{Pull requests}
+\item
+  \href{/CptMike/online-cv/actions}{Actions}
+\item
+  \href{/CptMike/online-cv/projects?type=beta}{Projects}
+\item
+  \href{/CptMike/online-cv/wiki}{Wiki}
+\item
+  \href{/CptMike/online-cv/security}{Security}
+\item
+  \href{/CptMike/online-cv/pulse}{Insights}
+\end{itemize}
+
+\hypertarget{repo-content-pjax-container}{}
+\hypertarget{spoof-warning}{}
+This commit does not belong to any branch on this repository, and may
+belong to a fork outside of the repository.
+
+{master} {}
+
+{Switch branches/tags}
+
+Branches
+
+Tags
+
+\hypertarget{ref-list-branches}{}
+Could not load branches
+
+Nothing to show
+
+\href{https://github.com/CptMike/online-cv/tree/\%7B\%7B\%20urlEncodedRefName\%20\%7D\%7D}{
+{\{\{ refName \}\}} {default}}
+
+\href{/CptMike/online-cv/branches}{View all branches}
+
+\hypertarget{tags-menu}{}
+Could not load tags
+
+Nothing to show
+
+\href{https://github.com/CptMike/online-cv/tree/\%7B\%7B\%20urlEncodedRefName\%20\%7D\%7D}{
+{\{\{ refName \}\}} {default}}
+
+\href{/CptMike/online-cv/tags}{View all tags}
+
+\href{/CptMike/online-cv/branches}{ \textbf{2} {branches}}
+\href{/CptMike/online-cv/tags}{ \textbf{0} {tags}}
+
+{ }
+
+Code{}
+
+This branch is 28 commits ahead of sharu725/online-cv:master.
+
+Contribute
+
+\begin{itemize}
+\item
+  This branch is 28 commits ahead of sharu725:master.
+
+  Open a pull request to contribute your changes upstream.
+\item
+  \href{/CptMike/online-cv/pull/new/master}{Open pull request}
+\end{itemize}
+
+\hypertarget{latest-commit}{%
+\subsection{Latest commit}\label{latest-commit}}
+
+\href{/CptMike}{\includegraphics[width=0.25in,height=0.25in]{https://avatars.githubusercontent.com/u/46355073?s=48\&v=4}}
+
+\href{/CptMike/online-cv/commits?author=CptMike}{CptMike} {
+\href{/CptMike/online-cv/commit/a3f8f985a16f2768fce052b7d2ded3d55f6ea65d}{Delete
+pdf directory} }
+
+\ldots{}
+
+\href{/CptMike/online-cv/commit/a3f8f985a16f2768fce052b7d2ded3d55f6ea65d}{a3f8f98}
+\href{/CptMike/online-cv/commit/a3f8f985a16f2768fce052b7d2ded3d55f6ea65d}{Apr
+2, 2022}
+
+\href{/CptMike/online-cv/commit/a3f8f985a16f2768fce052b7d2ded3d55f6ea65d}{Delete
+pdf directory}
+
+\texttt{a3f8f98}
+
+\hypertarget{git-stats}{%
+\subsection{Git stats}\label{git-stats}}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{/CptMike/online-cv/commits/master}{ { \textbf{155} { commits }
+  }}
+\end{itemize}
+
+\hypertarget{files}{%
+\subsection{Files}\label{files}}
+
+\href{/CptMike/online-cv/tree/a3f8f985a16f2768fce052b7d2ded3d55f6ea65d}{Permalink}
+
+Failed to load latest commit information.
+
+Type
+
+Name
+
+Latest commit message
+
+Commit time
+
+{\href{/CptMike/online-cv/tree/master/.github}{.github}}
+
+~
+
+~
+
+{\href{/CptMike/online-cv/tree/master/_data}{\_data}}
+
+~
+
+~
+
+{\href{/CptMike/online-cv/tree/master/_includes}{\_includes}}
+
+~
+
+~
+
+{\href{/CptMike/online-cv/tree/master/_layouts}{\_layouts}}
+
+~
+
+~
+
+{\href{/CptMike/online-cv/tree/master/_sass}{\_sass}}
+
+~
+
+~
+
+{\href{/CptMike/online-cv/tree/master/assets}{assets}}
+
+~
+
+~
+
+{\href{/CptMike/online-cv/blob/master/.gitignore}{.gitignore}}
+
+~
+
+~
+
+{\href{/CptMike/online-cv/blob/master/CNAME}{CNAME}}
+
+~
+
+~
+
+{\href{/CptMike/online-cv/blob/master/Gemfile}{Gemfile}}
+
+~
+
+~
+
+{\href{/CptMike/online-cv/blob/master/README.md}{README.md}}
+
+~
+
+~
+
+{\href{/CptMike/online-cv/blob/master/_config.yml}{\_config.yml}}
+
+~
+
+~
+
+{\href{/CptMike/online-cv/blob/master/favicon.ico}{favicon.ico}}
+
+~
+
+~
+
+{\href{/CptMike/online-cv/blob/master/index.html}{index.html}}
+
+~
+
+~
+
+View code
+
+\hypertarget{readme}{}
+\protect\hyperlink{orbit}{Orbit}
+\protect\hyperlink{installation}{Installation}
+\protect\hyperlink{skins}{Skins} \protect\hyperlink{credits}{Credits}
+\protect\hyperlink{star-history}{Star History}
+
+\hypertarget{readme.md}{%
+\subsection{\texorpdfstring{\protect\hyperlink{readme}{README.md}}{README.md}}\label{readme.md}}
+
+\href{https://jekyll-themes.com}{\includegraphics[width=\textwidth,height=0.20833in]{https://camo.githubusercontent.com/73bb00bc3a46ae7ee54807e00227c4037f8f11a223fd13b13e0f145fa7b1388b/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f66656174757265642532306f6e2d4a542d7265642e737667}}
+
+\hypertarget{orbit}{%
+\section[Orbit]{\texorpdfstring{\protect\hypertarget{user-content-orbit}{\protect\hyperlink{orbit}{}}Orbit}{Orbit}}\label{orbit}}
+
+\begin{quote}
+This theme is designed by Xiaoying Riley at
+\href{http://themes.3rdwavemedia.com/}{3rd Wave Media}. Visit her
+\href{http://themes.3rdwavemedia.com/}{website} for more themes.
+\end{quote}
+
+I have made this into a Jekyll Theme. Checkout the live demo
+\href{https://online-cv.webjeda.com}{here}.
+
+\begin{longtable}[]{@{}ll@{}}
+\toprule
+\endhead
+Desktop & Mobile \\
+\href{https://camo.githubusercontent.com/4a34b3b0fdf7c88a9b955e688adbd391d30ae5ef109d9b05dbcb7da6b6e19530/68747470733a2f2f6f6e6c696e652d63762e7765626a6564612e636f6d2f6173736574732f696d616765732f6465736b746f702e706e673f7261773d74727565}{\includegraphics[width=6.25in,height=\textheight]{https://camo.githubusercontent.com/4a34b3b0fdf7c88a9b955e688adbd391d30ae5ef109d9b05dbcb7da6b6e19530/68747470733a2f2f6f6e6c696e652d63762e7765626a6564612e636f6d2f6173736574732f696d616765732f6465736b746f702e706e673f7261773d74727565}}
+&
+\href{https://camo.githubusercontent.com/1b796e99306989ae77f2cdd297945351f60f77f23e53cdf77c641cc144d2046e/68747470733a2f2f6f6e6c696e652d63762e7765626a6564612e636f6d2f6173736574732f696d616765732f6d6f62696c652e706e673f7261773d74727565}{\includegraphics[width=2.60417in,height=\textheight]{https://camo.githubusercontent.com/1b796e99306989ae77f2cdd297945351f60f77f23e53cdf77c641cc144d2046e/68747470733a2f2f6f6e6c696e652d63762e7765626a6564612e636f6d2f6173736574732f696d616765732f6d6f62696c652e706e673f7261773d74727565}} \\
+\bottomrule
+\end{longtable}
+
+\hypertarget{installation}{%
+\subsection[Installation]{\texorpdfstring{\protect\hypertarget{user-content-installation}{\protect\hyperlink{installation}{}}Installation}{Installation}}\label{installation}}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://github.com/sharu725/online-cv/fork}{Fork} the repository
+\item
+  Delete the \texttt{gh-pages} branch
+\item
+  Re-create the \texttt{gh-pages} branch
+\item
+  Go to settings and set Github Pages source as master.
+\item
+  Your new site should be ready at
+  \texttt{https://username.github.io/online-cv/}
+\end{itemize}
+
+Change all the details from one place: \texttt{\_data/data.yml}
+
+Watch my \href{https://www.youtube.com/embed/T2nx6tj-ZH4}{video} on
+installation.
+
+\hypertarget{skins}{%
+\subsection[Skins]{\texorpdfstring{\protect\hypertarget{user-content-skins}{\protect\hyperlink{skins}{}}Skins}{Skins}}\label{skins}}
+
+There are 6 color schemes available:
+
+\begin{longtable}[]{@{}lll@{}}
+\toprule
+Blue & Turquoise & Green \\
+\midrule
+\endhead
+\href{https://camo.githubusercontent.com/74a35c660192ccc096dd5c8b147c47176cb1c5b3ba300bcaa4fbeda92eaf4cf9/68747470733a2f2f6f6e6c696e652d63762e7765626a6564612e636f6d2f6173736574732f696d616765732f626c75652e6a7067}{\includegraphics[width=3.125in,height=\textheight]{https://camo.githubusercontent.com/74a35c660192ccc096dd5c8b147c47176cb1c5b3ba300bcaa4fbeda92eaf4cf9/68747470733a2f2f6f6e6c696e652d63762e7765626a6564612e636f6d2f6173736574732f696d616765732f626c75652e6a7067}}
+&
+\href{https://camo.githubusercontent.com/f023b54a46f2d37344f66f82118c952cf40c81bc96ded1b43846675c75ec2bdd/68747470733a2f2f6f6e6c696e652d63762e7765626a6564612e636f6d2f6173736574732f696d616765732f74757271756f6973652e6a7067}{\includegraphics[width=3.125in,height=\textheight]{https://camo.githubusercontent.com/f023b54a46f2d37344f66f82118c952cf40c81bc96ded1b43846675c75ec2bdd/68747470733a2f2f6f6e6c696e652d63762e7765626a6564612e636f6d2f6173736574732f696d616765732f74757271756f6973652e6a7067}}
+&
+\href{https://camo.githubusercontent.com/e4a449e9ce304d4920bfa96ff0fd5557c1dd16726072763960e31add2a855836/68747470733a2f2f6f6e6c696e652d63762e7765626a6564612e636f6d2f6173736574732f696d616765732f677265656e2e6a7067}{\includegraphics[width=3.125in,height=\textheight]{https://camo.githubusercontent.com/e4a449e9ce304d4920bfa96ff0fd5557c1dd16726072763960e31add2a855836/68747470733a2f2f6f6e6c696e652d63762e7765626a6564612e636f6d2f6173736574732f696d616765732f677265656e2e6a7067}} \\
+\bottomrule
+\end{longtable}
+
+\begin{longtable}[]{@{}lll@{}}
+\toprule
+Berry & Orange & Ceramic \\
+\midrule
+\endhead
+\href{https://camo.githubusercontent.com/b7e0b6565ada069845d343870eab023bdbeee2b387e6d7d675cf545d9dd932f5/68747470733a2f2f6f6e6c696e652d63762e7765626a6564612e636f6d2f6173736574732f696d616765732f62657272792e6a7067}{\includegraphics[width=3.125in,height=\textheight]{https://camo.githubusercontent.com/b7e0b6565ada069845d343870eab023bdbeee2b387e6d7d675cf545d9dd932f5/68747470733a2f2f6f6e6c696e652d63762e7765626a6564612e636f6d2f6173736574732f696d616765732f62657272792e6a7067}}
+&
+\href{https://camo.githubusercontent.com/b952fa060199145c03912d3458ee6d74eb180157fe5dfd93411dcbfc24f53c52/68747470733a2f2f6f6e6c696e652d63762e7765626a6564612e636f6d2f6173736574732f696d616765732f6f72616e67652e6a7067}{\includegraphics[width=3.125in,height=\textheight]{https://camo.githubusercontent.com/b952fa060199145c03912d3458ee6d74eb180157fe5dfd93411dcbfc24f53c52/68747470733a2f2f6f6e6c696e652d63762e7765626a6564612e636f6d2f6173736574732f696d616765732f6f72616e67652e6a7067}}
+&
+\href{https://camo.githubusercontent.com/1c535f11d4b48cf01550c68ae26d7f80f325805a231f6198ad1e07157fe5747f/68747470733a2f2f6f6e6c696e652d63762e7765626a6564612e636f6d2f6173736574732f696d616765732f636572616d69632e6a7067}{\includegraphics[width=3.125in,height=\textheight]{https://camo.githubusercontent.com/1c535f11d4b48cf01550c68ae26d7f80f325805a231f6198ad1e07157fe5747f/68747470733a2f2f6f6e6c696e652d63762e7765626a6564612e636f6d2f6173736574732f696d616765732f636572616d69632e6a7067}} \\
+\bottomrule
+\end{longtable}
+
+\hypertarget{credits}{%
+\subsection[Credits]{\texorpdfstring{\protect\hypertarget{user-content-credits}{\protect\hyperlink{credits}{}}Credits}{Credits}}\label{credits}}
+
+Thanks to \href{https://github.com/nelsonmestevao}{Nelson Estevão} for
+all the
+\href{https://github.com/sharu725/online-cv/commits?author=nelsonmestevao}{contributions}.
+
+Thanks to \href{https://github.com/t-h-e}{t-h-e(sfrost)} for all the
+\href{https://github.com/sharu725/online-cv/commits?author=t-h-e}{contributions}.
+
+Check out for more themes:
+\href{http://jekyll-themes.com}{\textbf{Jekyll Themes}}.
+
+\hypertarget{star-history}{%
+\subsection[Star
+History]{\texorpdfstring{\protect\hypertarget{user-content-star-history}{\protect\hyperlink{star-history}{}}Star
+History}{Star History}}\label{star-history}}
+
+\href{https://star-history.com/\#sharu725/online-cv\&Date}{\includegraphics{https://camo.githubusercontent.com/a518d7965e97b6a12d0524a4fb4fa94ec88dbdb885e5609918d3d5b4d6140d2b/68747470733a2f2f6170692e737461722d686973746f72792e636f6d2f7376673f7265706f733d73686172753732352f6f6e6c696e652d637626747970653d44617465}}
+
+\hypertarget{about}{%
+\subsection{About}\label{about}}
+
+A minimal Jekyll Theme to host your resume (CV)
+
+{ \href{https://online-cv.webjeda.com}{online-cv.webjeda.com} }
+
+\hypertarget{resources}{%
+\subsubsection{Resources}\label{resources}}
+
+\protect\hyperlink{readme}{ Readme}
+
+\hypertarget{stars}{%
+\subsubsection{Stars}\label{stars}}
+
+\href{/CptMike/online-cv/stargazers}{ \textbf{0} stars}
+
+\hypertarget{watchers}{%
+\subsubsection{Watchers}\label{watchers}}
+
+\href{/CptMike/online-cv/watchers}{ \textbf{0} watching}
+
+\hypertarget{forks}{%
+\subsubsection{Forks}\label{forks}}
+
+\href{/CptMike/online-cv/network/members}{ \textbf{4k} forks}
+
+\hypertarget{releases}{%
+\subsection{\texorpdfstring{\href{/CptMike/online-cv/releases}{Releases}}{Releases}}\label{releases}}
+
+No releases published
+
+\hypertarget{packages-0}{%
+\subsection{\texorpdfstring{\href{/users/CptMike/packages?repo_name=online-cv}{Packages
+{0}}}{Packages 0}}\label{packages-0}}
+
+No packages published\\
+
+\hypertarget{languages}{%
+\subsection{Languages}\label{languages}}
+
+{ {} {} {} {} {} {} }
+
+\begin{itemize}
+\tightlist
+\item
+  \href{/CptMike/online-cv/search?l=css}{ {CSS} {43.9\%}}
+\item
+  \href{/CptMike/online-cv/search?l=javascript}{ {JavaScript} {39.1\%}}
+\item
+  \href{/CptMike/online-cv/search?l=tex}{ {TeX} {6.7\%}}
+\item
+  \href{/CptMike/online-cv/search?l=html}{ {HTML} {5.9\%}}
+\item
+  \href{/CptMike/online-cv/search?l=scss}{ {SCSS} {4.3\%}}
+\item
+  \href{/CptMike/online-cv/search?l=ruby}{ {Ruby} {0.1\%}}
+\end{itemize}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://github.com}{} { © 2022 GitHub, Inc. }
+\end{itemize}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://docs.github.com/en/github/site-policy/github-terms-of-service}{Terms}
+\item
+  \href{https://docs.github.com/en/github/site-policy/github-privacy-statement}{Privacy}
+\item
+  \href{https://github.com/security}{Security}
+\item
+  \href{https://www.githubstatus.com/}{Status}
+\item
+  \href{https://docs.github.com}{Docs}
+\item
+  \href{https://support.github.com?tags=dotcom-footer}{Contact GitHub}
+\item
+  \href{https://github.com/pricing}{Pricing}
+\item
+  \href{https://docs.github.com}{API}
+\item
+  \href{https://services.github.com}{Training}
+\item
+  \href{https://github.blog}{Blog}
+\item
+  \href{https://github.com/about}{About}
+\end{itemize}
+
+{}
+
+\hypertarget{ajax-error-message}{}
+You can't perform that action at this time.
+
+{You signed in with another tab or window. \href{}{Reload} to refresh
+your session.} {You signed out in another tab or window. \href{}{Reload}
+to refresh your session.}
+
+\end{document}
